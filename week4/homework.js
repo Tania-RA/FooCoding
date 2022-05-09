@@ -26,11 +26,11 @@ console.log("I'm awesome")
 
 console.log('EXERCISE 3')
 let x
-console.log("I think the value of x would be: 10")
+console.log("I think the value of x would be: undefined")
 console.log(x)
 
 x = 20
-console.log("I think the value of x would be: 15")
+console.log("I think the value of x would be: 20")
 console.log("The value of x represents someone's age which is: " + x)
 
 /* 
@@ -43,7 +43,7 @@ console.log("The value of x represents someone's age which is: " + x)
 */
 
 let y = 'Cat'
-console.log('Y is maybe: Dog')
+console.log('Y is maybe: Cat')
 console.log('y is: ' + y)
 y = 'Dog'
 console.log('Y is maybe: Dog')
