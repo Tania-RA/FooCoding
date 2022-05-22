@@ -18,7 +18,7 @@ favoriteAnimals.splice(1,0,'meerkat');
 console.log('New value of array would be 5');
 console.log(favoriteAnimals);
 console.log('The array has a length of: '+favoriteAnimals.length);
-favoriteAnimals.pop();
+favoriteAnimals.splice(3, 1);
 console.log(favoriteAnimals);
 let indexOfMeerkat= favoriteAnimals.indexOf('meerkat');
 console.log('The item you are looking for is at index: '+indexOfMeerkat);
