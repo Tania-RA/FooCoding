@@ -1,0 +1,38 @@
+/* add your styling here */
+body{
+  background-color: gray;
+  color: white;
+}
+h1{
+  color:gold;
+}
+h3{
+  color:greenyellow;
+}
+p{
+  color:antiquewhite;
+}
+#bookDetails{
+  width: 300px;
+  margin: 50px;
+  margin-left: 400px;
+  margin-top: 0;
+  background:rgb(57, 53, 53);
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 30px;
+  padding-right: 20px;
+  border: 5px solid black;
+  transform:translateY(-250px)  ;
+  
+
+}
+.statement{
+  color: greenyellow;
+  font-weight:bolder;
+}
+.endNote{
+  font-size: small;
+  font-style: italic;
+  color: rgb(244, 61, 61);
+}
