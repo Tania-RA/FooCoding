@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topNavBar {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+
+}
+
+.buttonTop {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin-left: 0;
+
+}
+
+button {
+    background-color: red;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 0;
+    color: white;
+    border-color: red;
+    width: 180px;
+}
+
+.memberTop {
+    width: 50%;
+    display: flex;
+    padding: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.memberTop a {
+    font-weight: bold;
+}
+
+.name {
+    display: flex;
+    justify-content: left;
+    position: relative;
+    margin-right: 400px;
+    font-weight: bolder;
+    font-size: large;
+    padding: 5px;
+
+}
+
+.about {
+    display: flex;
+    justify-content: left;
+    position: relative;
+    width: 650px;
+    margin-right: 50px;
+    padding: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+
+
+.slides {
+    position: relative;
+    display: flex;
+}
+
+.slidesTwo {
+    transition: background-image 1s ease-in-out;
+    background-image: url("tenzr.jpg");
+    width: 100vw;
+    height: 75vh;
+    position: absolute;
+}
+
+.slidesTwo:hover {
+    background-image: url("Dump.jpeg");
+}
+
+.sideBox {
+    position: absolute;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    width: 350px;
+    border-radius: 0px;
+    text-align: left;
+    padding: 20px;
+    margin: 350px;
+    margin-left: 180px;
+    margin-top: 400px;
+
+}
+
+.textDown {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 135.2%;
+    /* or 49px */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.textAbove {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.visitButton {
+
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 100px;
+
+}
+
+.visit {
+    position: absolute;
+    margin-left: 1550px;
+    margin-top: 625px;
+
+}
+
+.sites {
+    position: absolute;
+    background-color: black;
+    color: #FFFFFF;
+    width: 100vw;
+    height: 100vh;
+    top: 740px;
+
+}
